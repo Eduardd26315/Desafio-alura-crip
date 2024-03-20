@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador|Eduard</title>
+</head>
+
+<body>
+   <header>
+    <div class="container__texto">
+        <h1 ></h1>
+    </div>
+   </header>
+   <section class="container">
+    <div class="container__conteudo">
+        <div class="container__informacoes">
+            <input type="text" min="1" max="1000" class="container__input" id="textoOriginal" placeholder="Inserir as informações">
+            <p class="texto__paragrafo"></p>
+            <div class="container__botoes">
+                <button onclick="criptografar()" class="container__botao">Criptografar</button>
+                <button onclick="descriptografar()" class="container__botao" >Descriptografar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container__conteudo__copiar">
+        <div class="container__informacoes">
+            <input type="text" min="1" max="1000" class="container__input__copiar" placeholder="Não encontramos nenhuma informação" id="resultado" readonly>
+            <div class="container__botao__copiar">
+                <button onclick="copiarTexto()" class="container__botao">Copiar</button>
+                <button onclick="limparTexto()" class=" container__botao__limpar">Limpar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-links">
+        <h2 class="container-subtitulo-redes">
+            Acesse minhas redes:
+        </h2>
+        <a class="container-links-redes" href="https://www.instagram.com/eduardn.21/"><img class="container-links-redes-icone" src="img/instagram.png" alt="logo de instagram">Instagram</a>
+        <a class="container-links-redes" href="https://www.linkedin.com/in/eduard-nunez-desenvolvedor-web/"><img class="container-links-redes-icone" src="img/linkedin.png" alt="logo de linkedin">LinkedIn</a>
+        <a class="container-links-redes" href="https://github.com/Eduardd26315"><img class="container-links-redes-icone" src="img/github.png" alt="logo de github">GitHub</a>
+    </div>
+</section>
+
+    <footer>
+       
+        <p class="rodape">
+            Desenvolvido por Eduard Nunez...
+       </p>
+        
+    </footer>
+    <style>
+        
+    </style>
+    <script src="app.js" ></script>
+    </body>
+
+</html>
